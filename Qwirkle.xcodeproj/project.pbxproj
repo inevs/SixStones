@@ -12,13 +12,33 @@
 		26F7663E180AE59C00557A15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7663D180AE59C00557A15 /* UIKit.framework */; };
 		26F76644180AE59C00557A15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26F76642180AE59C00557A15 /* InfoPlist.strings */; };
 		26F76646180AE59C00557A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76645180AE59C00557A15 /* main.m */; };
-		26F7664A180AE59C00557A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76649180AE59C00557A15 /* AppDelegate.m */; };
 		26F7664C180AE59C00557A15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F7664B180AE59C00557A15 /* Images.xcassets */; };
 		26F76653180AE59C00557A15 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F76652180AE59C00557A15 /* XCTest.framework */; };
 		26F76654180AE59C00557A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F76639180AE59C00557A15 /* Foundation.framework */; };
 		26F76655180AE59C00557A15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7663D180AE59C00557A15 /* UIKit.framework */; };
 		26F7665D180AE59C00557A15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26F7665B180AE59C00557A15 /* InfoPlist.strings */; };
-		26F7665F180AE59C00557A15 /* QwirkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7665E180AE59C00557A15 /* QwirkleTests.m */; };
+		26F76678180AE5E700557A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76669180AE5E700557A15 /* AppDelegate.m */; };
+		26F76679180AE5E700557A15 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7666B180AE5E700557A15 /* Board.m */; };
+		26F7667A180AE5E700557A15 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7666D180AE5E700557A15 /* BoardView.m */; };
+		26F7667B180AE5E700557A15 /* BoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7666F180AE5E700557A15 /* BoardViewController.m */; };
+		26F7667C180AE5E700557A15 /* BoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F76670180AE5E700557A15 /* BoardViewController.xib */; };
+		26F7667D180AE5E700557A15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F76671180AE5E700557A15 /* Default-568h@2x.png */; };
+		26F7667E180AE5E700557A15 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F76672180AE5E700557A15 /* Default.png */; };
+		26F7667F180AE5E700557A15 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F76673180AE5E700557A15 /* Default@2x.png */; };
+		26F76680180AE5E700557A15 /* DropLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76675180AE5E700557A15 /* DropLocation.m */; };
+		26F76681180AE5E700557A15 /* DropLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76677180AE5E700557A15 /* DropLocationView.m */; };
+		26F76688180AE60D00557A15 /* Stone.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76683180AE60D00557A15 /* Stone.m */; };
+		26F76689180AE60D00557A15 /* StoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76685180AE60D00557A15 /* StoneView.m */; };
+		26F7668A180AE60D00557A15 /* UIView+RemoveSubiews.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76687180AE60D00557A15 /* UIView+RemoveSubiews.m */; };
+		26F76690180AE62900557A15 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7668C180AE62900557A15 /* Game.m */; };
+		26F76691180AE62900557A15 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7668E180AE62900557A15 /* Player.m */; };
+		26F76696180AE64600557A15 /* Board+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76693180AE64600557A15 /* Board+Testing.m */; };
+		26F76697180AE64600557A15 /* BoardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76694180AE64600557A15 /* BoardTest.m */; };
+		26F76698180AE64600557A15 /* BoardViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76695180AE64600557A15 /* BoardViewControllerTest.m */; };
+		26F7669B180AE65000557A15 /* GameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F76699180AE65000557A15 /* GameTest.m */; };
+		26F7669C180AE65000557A15 /* StoneTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7669A180AE65000557A15 /* StoneTest.m */; };
+		26F7669E180AE6A900557A15 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7669D180AE6A900557A15 /* OCHamcrestIOS.framework */; };
+		26F766A0180AE6BE00557A15 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7669F180AE6BE00557A15 /* OCMockitoIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +60,46 @@
 		26F76643180AE59C00557A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26F76645180AE59C00557A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26F76647180AE59C00557A15 /* Qwirkle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Qwirkle-Prefix.pch"; sourceTree = "<group>"; };
-		26F76648180AE59C00557A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		26F76649180AE59C00557A15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		26F7664B180AE59C00557A15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		26F76651180AE59C00557A15 /* QwirkleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QwirkleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F76652180AE59C00557A15 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		26F7665A180AE59C00557A15 /* QwirkleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QwirkleTests-Info.plist"; sourceTree = "<group>"; };
 		26F7665C180AE59C00557A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		26F7665E180AE59C00557A15 /* QwirkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QwirkleTests.m; sourceTree = "<group>"; };
+		26F76668180AE5E700557A15 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26F76669180AE5E700557A15 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26F7666A180AE5E700557A15 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		26F7666B180AE5E700557A15 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		26F7666C180AE5E700557A15 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		26F7666D180AE5E700557A15 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		26F7666E180AE5E700557A15 /* BoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardViewController.h; sourceTree = "<group>"; };
+		26F7666F180AE5E700557A15 /* BoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewController.m; sourceTree = "<group>"; };
+		26F76670180AE5E700557A15 /* BoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoardViewController.xib; sourceTree = "<group>"; };
+		26F76671180AE5E700557A15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		26F76672180AE5E700557A15 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		26F76673180AE5E700557A15 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		26F76674180AE5E700557A15 /* DropLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropLocation.h; sourceTree = "<group>"; };
+		26F76675180AE5E700557A15 /* DropLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropLocation.m; sourceTree = "<group>"; };
+		26F76676180AE5E700557A15 /* DropLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropLocationView.h; sourceTree = "<group>"; };
+		26F76677180AE5E700557A15 /* DropLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropLocationView.m; sourceTree = "<group>"; };
+		26F76682180AE60D00557A15 /* Stone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stone.h; sourceTree = "<group>"; };
+		26F76683180AE60D00557A15 /* Stone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stone.m; sourceTree = "<group>"; };
+		26F76684180AE60D00557A15 /* StoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoneView.h; sourceTree = "<group>"; };
+		26F76685180AE60D00557A15 /* StoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoneView.m; sourceTree = "<group>"; };
+		26F76686180AE60D00557A15 /* UIView+RemoveSubiews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RemoveSubiews.h"; sourceTree = "<group>"; };
+		26F76687180AE60D00557A15 /* UIView+RemoveSubiews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RemoveSubiews.m"; sourceTree = "<group>"; };
+		26F7668B180AE62900557A15 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		26F7668C180AE62900557A15 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		26F7668D180AE62900557A15 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		26F7668E180AE62900557A15 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		26F7668F180AE62900557A15 /* PointGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointGeometry.h; sourceTree = "<group>"; };
+		26F76692180AE64600557A15 /* Board+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Board+Testing.h"; sourceTree = "<group>"; };
+		26F76693180AE64600557A15 /* Board+Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Board+Testing.m"; sourceTree = "<group>"; };
+		26F76694180AE64600557A15 /* BoardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardTest.m; sourceTree = "<group>"; };
+		26F76695180AE64600557A15 /* BoardViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewControllerTest.m; sourceTree = "<group>"; };
+		26F76699180AE65000557A15 /* GameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTest.m; sourceTree = "<group>"; };
+		26F7669A180AE65000557A15 /* StoneTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoneTest.m; sourceTree = "<group>"; };
+		26F7669D180AE6A900557A15 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
+		26F7669F180AE6BE00557A15 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockitoIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +120,8 @@
 				26F76653180AE59C00557A15 /* XCTest.framework in Frameworks */,
 				26F76655180AE59C00557A15 /* UIKit.framework in Frameworks */,
 				26F76654180AE59C00557A15 /* Foundation.framework in Frameworks */,
+				26F7669E180AE6A900557A15 /* OCHamcrestIOS.framework in Frameworks */,
+				26F766A0180AE6BE00557A15 /* OCMockitoIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +150,8 @@
 		26F76638180AE59C00557A15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				26F7669F180AE6BE00557A15 /* OCMockitoIOS.framework */,
+				26F7669D180AE6A900557A15 /* OCHamcrestIOS.framework */,
 				26F76639180AE59C00557A15 /* Foundation.framework */,
 				26F7663B180AE59C00557A15 /* CoreGraphics.framework */,
 				26F7663D180AE59C00557A15 /* UIKit.framework */,
@@ -107,9 +163,34 @@
 		26F7663F180AE59C00557A15 /* Qwirkle */ = {
 			isa = PBXGroup;
 			children = (
-				26F76648180AE59C00557A15 /* AppDelegate.h */,
-				26F76649180AE59C00557A15 /* AppDelegate.m */,
+				26F7668B180AE62900557A15 /* Game.h */,
+				26F7668C180AE62900557A15 /* Game.m */,
+				26F7668D180AE62900557A15 /* Player.h */,
+				26F7668E180AE62900557A15 /* Player.m */,
+				26F7668F180AE62900557A15 /* PointGeometry.h */,
+				26F76668180AE5E700557A15 /* AppDelegate.h */,
+				26F76669180AE5E700557A15 /* AppDelegate.m */,
+				26F7666A180AE5E700557A15 /* Board.h */,
+				26F7666B180AE5E700557A15 /* Board.m */,
+				26F7666C180AE5E700557A15 /* BoardView.h */,
+				26F7666D180AE5E700557A15 /* BoardView.m */,
+				26F7666E180AE5E700557A15 /* BoardViewController.h */,
+				26F7666F180AE5E700557A15 /* BoardViewController.m */,
+				26F76670180AE5E700557A15 /* BoardViewController.xib */,
+				26F76671180AE5E700557A15 /* Default-568h@2x.png */,
+				26F76672180AE5E700557A15 /* Default.png */,
+				26F76673180AE5E700557A15 /* Default@2x.png */,
+				26F76674180AE5E700557A15 /* DropLocation.h */,
+				26F76675180AE5E700557A15 /* DropLocation.m */,
+				26F76676180AE5E700557A15 /* DropLocationView.h */,
+				26F76677180AE5E700557A15 /* DropLocationView.m */,
 				26F7664B180AE59C00557A15 /* Images.xcassets */,
+				26F76682180AE60D00557A15 /* Stone.h */,
+				26F76683180AE60D00557A15 /* Stone.m */,
+				26F76684180AE60D00557A15 /* StoneView.h */,
+				26F76685180AE60D00557A15 /* StoneView.m */,
+				26F76686180AE60D00557A15 /* UIView+RemoveSubiews.h */,
+				26F76687180AE60D00557A15 /* UIView+RemoveSubiews.m */,
 				26F76640180AE59C00557A15 /* Supporting Files */,
 			);
 			path = Qwirkle;
@@ -129,7 +210,12 @@
 		26F76658180AE59C00557A15 /* QwirkleTests */ = {
 			isa = PBXGroup;
 			children = (
-				26F7665E180AE59C00557A15 /* QwirkleTests.m */,
+				26F76692180AE64600557A15 /* Board+Testing.h */,
+				26F76693180AE64600557A15 /* Board+Testing.m */,
+				26F76694180AE64600557A15 /* BoardTest.m */,
+				26F76695180AE64600557A15 /* BoardViewControllerTest.m */,
+				26F76699180AE65000557A15 /* GameTest.m */,
+				26F7669A180AE65000557A15 /* StoneTest.m */,
 				26F76659180AE59C00557A15 /* Supporting Files */,
 			);
 			path = QwirkleTests;
@@ -192,7 +278,7 @@
 				ORGANIZATIONNAME = "Sven Günther";
 				TargetAttributes = {
 					26F76650180AE59C00557A15 = {
-						TestTargetID = 26F76635180AE59C00557A15;
+						TestTargetID = 26F76635180AE59C00557A15 /* Qwirkle */;
 					};
 				};
 			};
@@ -219,8 +305,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F7667F180AE5E700557A15 /* Default@2x.png in Resources */,
 				26F76644180AE59C00557A15 /* InfoPlist.strings in Resources */,
+				26F7667D180AE5E700557A15 /* Default-568h@2x.png in Resources */,
+				26F7667C180AE5E700557A15 /* BoardViewController.xib in Resources */,
 				26F7664C180AE59C00557A15 /* Images.xcassets in Resources */,
+				26F7667E180AE5E700557A15 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F7664A180AE59C00557A15 /* AppDelegate.m in Sources */,
+				26F76689180AE60D00557A15 /* StoneView.m in Sources */,
+				26F76690180AE62900557A15 /* Game.m in Sources */,
+				26F7668A180AE60D00557A15 /* UIView+RemoveSubiews.m in Sources */,
+				26F76679180AE5E700557A15 /* Board.m in Sources */,
+				26F76691180AE62900557A15 /* Player.m in Sources */,
+				26F7667B180AE5E700557A15 /* BoardViewController.m in Sources */,
+				26F7667A180AE5E700557A15 /* BoardView.m in Sources */,
+				26F76688180AE60D00557A15 /* Stone.m in Sources */,
+				26F76680180AE5E700557A15 /* DropLocation.m in Sources */,
+				26F76681180AE5E700557A15 /* DropLocationView.m in Sources */,
+				26F76678180AE5E700557A15 /* AppDelegate.m in Sources */,
 				26F76646180AE59C00557A15 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F7665F180AE59C00557A15 /* QwirkleTests.m in Sources */,
+				26F7669C180AE65000557A15 /* StoneTest.m in Sources */,
+				26F76697180AE64600557A15 /* BoardTest.m in Sources */,
+				26F76698180AE64600557A15 /* BoardViewControllerTest.m in Sources */,
+				26F76696180AE64600557A15 /* Board+Testing.m in Sources */,
+				26F7669B180AE65000557A15 /* GameTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +495,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/sven/development/Qwirkle,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qwirkle/Qwirkle-Prefix.pch";
@@ -414,6 +519,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/sven/development/Qwirkle,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qwirkle/Qwirkle-Prefix.pch";
