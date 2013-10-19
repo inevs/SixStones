@@ -16,12 +16,15 @@
 #define SomeStone [Stone stoneWithShape:QwirkleShapeCircle color:QwirkleColorBlue]
 #define SomePosition CGPointMake(0, 0)
 
+@interface Game (Private)
+- (NSMutableArray *)buildHeap;
+- (void)fillStonesForPlayer:(Player *)player;
+@end
+
 @interface Game (Testing)
 @property (nonatomic, strong) NSMutableArray *heap;
-- (NSMutableArray *)buildHeap;
 - (void)setBoard:(Board *)board;
 - (void)setCurrentMoveStones:(NSArray *)stones;
-- (void)fillStonesForPlayer:(Player *)player;
 @end
 
 @implementation Game (Testing)
