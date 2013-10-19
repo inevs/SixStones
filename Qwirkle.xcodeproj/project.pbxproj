@@ -278,7 +278,7 @@
 				ORGANIZATIONNAME = "Sven Günther";
 				TargetAttributes = {
 					26F76650180AE59C00557A15 = {
-						TestTargetID = 26F76635180AE59C00557A15;
+						TestTargetID = 26F76635180AE59C00557A15 /* Qwirkle */;
 					};
 				};
 			};

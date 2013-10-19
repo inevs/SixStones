@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>24F58C96-A5B6-4635-937E-8EA2E733B448</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Qwirkle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>93C11ED0-B602-4C7D-A04A-CC2B8BF9EE56</key>
+		<string>ssh://github.com/inevs/SixStones.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Qwirkle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>93C11ED0-B602-4C7D-A04A-CC2B8BF9EE56</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/inevs/SixStones.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>93C11ED0-B602-4C7D-A04A-CC2B8BF9EE56</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>93C11ED0-B602-4C7D-A04A-CC2B8BF9EE56</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Qwirkle</string>
+		</dict>
+	</array>
+</dict>
+</plist>
