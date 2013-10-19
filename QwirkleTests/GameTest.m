@@ -55,6 +55,12 @@
 	return firstStone;
 }
 
+- (Board *)boardWithStones:(NSArray *)array {
+	Board *board = [[Board alloc] init];
+	[board setPlacedStones:array];
+	return board;
+}
+
 - (void)testHas108Stones {
 	assertThat([game buildHeap], hasCountOf(108));
 }
@@ -113,12 +119,6 @@
 	NSArray *dropLocations = game.dropLocations;
 	assertThat(dropLocations, hasItem([DropLocation dropLocationWithPositionX:0 positionY:2]));
 	assertThat(dropLocations, hasItem([DropLocation dropLocationWithPositionX:0 positionY:-1]));
-}
-
-- (Board *)boardWithStones:(NSArray *)array {
-	Board *board = [[Board alloc] init];
-	[board setPlacedStones:array];
-	return board;
 }
 
 - (void)testAddsDropLocationsToBottomEndOfRowForFirstPlacedStone {

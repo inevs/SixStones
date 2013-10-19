@@ -4,6 +4,8 @@
 #define HC_SHORTHAND
 #import <OCHamcrestIOS/OCHamcrestIOS.h>
 
+#import "IsSameColorAndShapeMatcher.h"
+
 @interface StoneTest : XCTestCase
 @end
 
@@ -12,6 +14,6 @@
 - (void)testComparesStoneWithSameColorAndShapeAsEqualColorShaped {
 	Stone *left = [Stone stoneWithShape:QwirkleShapeCircle color:QwirkleColorRed];
 	Stone *right = [Stone stoneWithShape:QwirkleShapeCircle color:QwirkleColorRed];
-	assertThatBool([left hasSameColorAndShape:right], equalToBool(TRUE));
+	assertThat(left, isSameColorAndShape(right));
 }
 @end

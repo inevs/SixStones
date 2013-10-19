@@ -39,6 +39,7 @@
 		26F7669C180AE65000557A15 /* StoneTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7669A180AE65000557A15 /* StoneTest.m */; };
 		26F7669E180AE6A900557A15 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7669D180AE6A900557A15 /* OCHamcrestIOS.framework */; };
 		26F766A0180AE6BE00557A15 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7669F180AE6BE00557A15 /* OCMockitoIOS.framework */; };
+		360E44D8933F9B35A2F78EA8 /* IsSameColorAndShapeMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 360E4CEF20695A720474BEB1 /* IsSameColorAndShapeMatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		26F7669A180AE65000557A15 /* StoneTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoneTest.m; sourceTree = "<group>"; };
 		26F7669D180AE6A900557A15 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
 		26F7669F180AE6BE00557A15 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockitoIOS.framework; sourceTree = "<group>"; };
+		360E48EA97AF1EEE53D93A6A /* IsSameColorAndShapeMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsSameColorAndShapeMatcher.h; sourceTree = "<group>"; };
+		360E4CEF20695A720474BEB1 /* IsSameColorAndShapeMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsSameColorAndShapeMatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C744131812F00D000D34D8 /* CustomMatchers */ = {
+			isa = PBXGroup;
+			children = (
+				360E48EA97AF1EEE53D93A6A /* IsSameColorAndShapeMatcher.h */,
+				360E4CEF20695A720474BEB1 /* IsSameColorAndShapeMatcher.m */,
+			);
+			name = CustomMatchers;
+			sourceTree = "<group>";
+		};
 		26F7662D180AE59C00557A15 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +222,7 @@
 		26F76658180AE59C00557A15 /* QwirkleTests */ = {
 			isa = PBXGroup;
 			children = (
+				26C744131812F00D000D34D8 /* CustomMatchers */,
 				26F76692180AE64600557A15 /* Board+Testing.h */,
 				26F76693180AE64600557A15 /* Board+Testing.m */,
 				26F76694180AE64600557A15 /* BoardTest.m */,
@@ -353,6 +366,7 @@
 				26F76698180AE64600557A15 /* BoardViewControllerTest.m in Sources */,
 				26F76696180AE64600557A15 /* Board+Testing.m in Sources */,
 				26F7669B180AE65000557A15 /* GameTest.m in Sources */,
+				360E44D8933F9B35A2F78EA8 /* IsSameColorAndShapeMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
